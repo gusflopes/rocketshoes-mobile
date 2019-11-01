@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import colors from '../../styles/colors';
 
 import logo from '../../assets/logo.png';
