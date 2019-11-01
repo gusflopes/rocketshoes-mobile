@@ -6,7 +6,7 @@ export const Container = styled.View`
   background: #fff;
   border-radius: 4px;
   margin: 15px;
-  margin-top: 60px;
+  margin-top: 65px;
 `;
 
 export const Products = styled.View``;

@@ -1,7 +1,7 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
 import { Provider } from 'react-redux';
 import './config/ReactotronConfig';
-import { StatusBar } from 'react-native';
 
 import store from './store';
 
@@ -11,10 +11,10 @@ import NavigationService from './services/navigation';
 export default function App() {
   return (
     <Provider store={store}>
+      <StatusBar barStyle="light-content" backgroundColor="#191920" />
       <Routes
         ref={navigatorRef => NavigationService.setNavigator(navigatorRef)}
       />
-      <StatusBar barStyle="light-content" />
     </Provider>
   );
 }

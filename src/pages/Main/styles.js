@@ -4,7 +4,7 @@ import colors from '../../styles/colors';
 
 export const Container = styled.SafeAreaView`
   background: ${colors.dark};
-  margin-top: 60px;
+  margin-top: 65px;
 `;
 
 export const Product = styled.View`
